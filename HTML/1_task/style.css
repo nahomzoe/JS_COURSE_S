@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(135, 170, 140);
+}
+p {
+  font-family: serif;
+}
+#my_id {
+  color: rgb(88, 80, 80);
+  font-size: 60px;
+}
+.my_class {
+  color: rgb(88, 78, 133);
+  font-size: 50px;
+}
+.my_class1 {
+  color: aqua;
+}
+.my_class2 {
+  color: brown;
+}
+.my_class3 {
+  color: coral;
+}
+.my_class4 {
+  color: darkgoldenrod;
+}
+/* This is my first class CSS code */
