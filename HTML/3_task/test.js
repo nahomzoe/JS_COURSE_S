@@ -70,7 +70,12 @@ let firstNumberAboveTen = numbers.find(function (number) {
 console.log(firstNumberAboveTen); // 14*/
 
 let numbers = [9, 5, 14, 3, 11];
-numbers.filter(function (num) {
+let fa = numbers.filter(function (num) {
   return num >= 12;
 });
-console.log(numbers);
+console.log(fa);
+
+// same
+let numbers = [9, 5, 14, 3, 11];
+let fa = numbers.filter((num) => num >= 12);
+console.log(fa);

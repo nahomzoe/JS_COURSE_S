@@ -7,7 +7,7 @@ What is the length of the array?
 Write a function called myAlphabetLength which console.logs the length of the array
 Within the function also use an if-conditional statement that checks if the number of items within the array are less than 5
 **/
-let myAlphabet = ["A", "B", "C", "D", "E", "F", "G"];
+/*let myAlphabet = ["A", "B", "C", "D", "E", "F", "G"];
 function myAlphabetLength() {
   let length = myAlphabet.length;
   if (length < 5) {
@@ -16,13 +16,16 @@ function myAlphabetLength() {
     return `Yes the ${length} is greater than 5`;
   }
 }
-console.log(myAlphabetLength());
+console.log(myAlphabetLength());*/
 
 /**
 Task 2;
 Declare a arrow function checkFunc that takes a string and a boolean as parameters
 Call the function using 2 arguments
 **/
+/*const checkFun = (name, isNot) => (ele1,ele2) => name === type.string;
+
+console.log(checkFun());*/
 
 /**
 Task 3;
@@ -30,6 +33,13 @@ Declare and initialize an array called Planets with 5 string values
 console.log each item in the array
 Also console.log the index in each iteration
 **/
+let planets = ["earth", "mars", "venus", "saturne", "jupiter"];
+let newArray = [];
+
+planets.filter((ele) => ele(index));
+return planets;
+
+console.log(newArray);
 
 /**
 Task 4:
