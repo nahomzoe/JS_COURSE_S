@@ -30,8 +30,39 @@ const { id, isAdmin, accessibility } = config;
 console.log(id, isAdmin);
 */
 
-const firstPerson = { name: "Sam", age: 18 };
+/*const firstPerson = { name: "Sam", age: 18 };
 
 const secondPerson = { age: 25, type: "admin" };
 const mergedObjects = { ...firstPerson, ...secondPerson };
-console.log(mergedObjects);
+console.log(mergedObjects);*/
+
+/*const user = {
+  details: {
+    name: {
+      firstName: "Sam",
+    },
+  },
+  data: null,
+};
+console.log(user.details?.name?.firstName); // "Sam"user.data?.id; // ndefineduser.children?.names; // undefineduser.details?.parent?.firstName;*/
+
+/*const data = {
+  temperatures: [-3, 14, 4],
+};
+//let firstValue = undefined;
+if (data.temperatures) {
+  firstValue = data.temperatures[0];
+}
+const firstValue = data.temperatures?.[0];
+console.log(firstValue);*/
+
+/*const person = {
+  age: 43,
+  name: "Sam",
+};
+//let upperCasedName = person.name; // might be undefined
+//if (person.name) {
+ // upperCasedName = person.name.toUpperCase();
+//}
+
+const upperCasedName = person.name?.toUpperCase();*/
