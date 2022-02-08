@@ -1,6 +1,5 @@
-const emptyShoppingList = () => {
-
-}
+const emptyShoppingList = () =>
+  (shoppingList = document.querySelector("#shopping-list").innerHTML = "");
 
 // Sample usage - do not modify
-emptyShoppingList();
+console.log(emptyShoppingList());
