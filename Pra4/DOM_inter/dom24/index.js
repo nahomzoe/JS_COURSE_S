@@ -4,5 +4,10 @@ let menu = document.querySelector("#menu-sidebar");
 let app = document.querySelector("#app-sidebar");
 
 menu.addEventListener("click", () => {
-  app.classList.add("show");
+  /*if (app.classList.contains("show")) {
+    app.classList.remove("show");
+  } else {
+    app.classList.add("show");
+  }*/
+  app.classList.toggle("show");
 });
