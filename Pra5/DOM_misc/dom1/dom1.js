@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Complete the renderShoppingList function such that it renders an <li> element
@@ -10,9 +10,13 @@ So, the first item should show up first (at the top).
 /**
  * @param {string[]} items
  */
-const renderShoppingList = items => {
+const list = document.querySelector("#shopping-list");
+const renderShoppingList = (items) => {
+  sampleList.forEach((sample) => {
+    list.insertAdjacentHTML("beforeend", `<li>${sample}</li>`);
+  });
+};
 
-}
 // Sample usage - do not modify
 const sampleList = ["Orange", "Banana", "Coffee", "Paper"];
 console.log(renderShoppingList(sampleList));
