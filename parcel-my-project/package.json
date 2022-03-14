@@ -11,6 +11,9 @@
   "author": "Nahom",
   "license": "MIT",
   "dependencies": {
-    "parcel": "^2.0.0-rc.0"
+    "@skalwar/simple_number_formatter": "^1.0.1",
+    "chart.js": "^3.7.1",
+    "parcel": "^2.0.0-rc.0",
+    "snackbar": "^1.1.0"
   }
 }
