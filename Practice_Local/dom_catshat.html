@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<style>
+  body {
+    min-height: 200px;
+  }
+</style>
+<img
+  src="https://eloquentjavascript.net/img/cat.png"
+  id="cat"
+  style="position: absolute"
+/>
+<img
+  src="https://eloquentjavascript.net/img/hat.png"
+  id="hat"
+  style="position: absolute"
+/>
+
+<script>
+  // Write a JavaScript code to animate cat and it's hat
+  let cat = document.querySelector("#cat");
+  let hat = document.querySelector("#hat");
+
+  let start = 0;
+  let stop = true;
+
+  function animate(time) {
+    if (stop != true) start += (time - stop) * 0.001;
+    stop = time;
+    cat.style.top = Math.sin(start) * 40 + 40 + "px";
+    cat.style.left = Math.cos(start) * 200 + 230 + "px";
+    hat.style.top = Math.sin(start + Math.PI) * 40 + 40 + "px";
+    hat.style.left = Math.cos(start + Math.PI) * 200 + 230 + "px";
+
+    requestAnimationFrame(animate);
+  }
+
+  requestAnimationFrame(animate);
+</script>
